@@ -60,7 +60,7 @@ export function Home() {
                     Nossos cafés
                 </h2>
 
-                <div className='grid gap-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'>
+                <div className='grid gap-10 justify-items-center sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'>
                     <CoffeeCard
                         name="Expresso Tradicional"
                         description="O tradicional café feito com água quente e grãos moídos"
