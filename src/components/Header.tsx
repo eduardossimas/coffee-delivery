@@ -16,7 +16,7 @@ export function Header() {
             <div className='flex items-center gap-3'>
                 <button className='flex items-center gap-2 bg-purple-light rounded-md p-2'>
                     <MapPin size={22} weight="fill" className="text-purple" />
-                    <span className="text-base text-purple-dark">Porto Alegre, RS</span>
+                    <span className="text-base text-purple-dark">São Paulo, SP</span>
                 </button>
                 <NavLink to="/checkout">
                     <button className="bg-yellow-light rounded-md p-2 relative cursor-pointer">

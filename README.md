@@ -1,54 +1,85 @@
-# React + TypeScript + Vite
+# Coffee Delivery
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um projeto desenvolvido com React para simular uma loja de cafés com funcionalidades de carrinho de compras, formulário de checkout e persistência de dados via `localStorage`.
 
-Currently, two official plugins are available:
+## 🖼️ Visão Geral
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O Coffee Delivery é uma aplicação de e-commerce fictícia onde o usuário pode:
 
-## Expanding the ESLint configuration
+- Navegar por uma lista de cafés
+- Adicionar/remover cafés do carrinho
+- Ajustar a quantidade de itens
+- Preencher os dados de entrega
+- Escolher a forma de pagamento
+- Finalizar o pedido
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🚀 Tecnologias Utilizadas
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+- **React**
+- **TypeScript**
+- **React Hook Form + Zod** (validação de formulários)
+- **React Router DOM**
+- **Context API** (gerenciamento de estado global do carrinho)
+- **Phosphor Icons**
+- **Tailwind CSS**
+
+## 📦 Funcionalidades
+
+- ✅ Adição e remoção de itens no carrinho
+- ✅ Formulário completo de endereço com validação
+- ✅ Escolha da forma de pagamento
+- ✅ Cálculo do total + taxa de entrega
+- ✅ Página de confirmação de pedido
+- ✅ Armazenamento local temporário do pedido no `localStorage`
+- ✅ Estilização responsiva com Tailwind
+
+## 📁 Estrutura de Pastas
+
+```
+src/
+├── components/         # Componentes reutilizáveis (ex: CoffeeCardCart)
+├── context/            # CartContext (estado global do carrinho)
+├── pages/              # Páginas principais: Home, Checkout, Success
+├── schemas/            # Schemas de validação com Zod
+├── routes/             # Definição das rotas com React Router
+└── main.tsx            # Ponto de entrada da aplicação
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🧪 Como Rodar o Projeto
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### 1. Clone o repositório
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+```bash
+git clone https://github.com/eduardossimas/coffee-delivery.git
+cd coffee-delivery
 ```
+
+### 2. Instale as dependências
+
+```bash
+npm install
+# ou
+yarn
+```
+
+### 3. Inicie o servidor de desenvolvimento
+
+```bash
+npm run dev
+# ou
+yarn dev
+```
+
+Acesse em: `http://localhost:5173`
+
+## 📸 Demonstração
+
+![Preview](./src/assets/Home.gif)
+
+## 📝 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
+
+---
+
+Feito com 💙 por [Eduardo Simas](https://github.com/eduardossimas)
