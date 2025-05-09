@@ -2,6 +2,10 @@
 
 Um projeto desenvolvido com React para simular uma loja de cafés com funcionalidades de carrinho de compras, formulário de checkout e persistência de dados via `localStorage`.
 
+### 🌐 Acesse o projeto online
+
+➡️ [coffee-delivery-lilac.vercel.app](https://coffee-delivery-lilac.vercel.app/)
+
 ## 🖼️ Visão Geral
 
 O Coffee Delivery é uma aplicação de e-commerce fictícia onde o usuário pode:
