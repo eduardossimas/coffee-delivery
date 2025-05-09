@@ -66,98 +66,98 @@ export function Home() {
                         description="O tradicional café feito com água quente e grãos moídos"
                         tags={['Tradicional']}
                         price={9.90}
-                        imageUrl="../src/assets/Type=Expresso.svg"
+                        imageUrl="/assets/Type=Expresso.svg"
                     />
                     <CoffeeCard
                         name="Expresso Americano"
                         description="Expresso diluído, menos intenso que o tradicional"
                         tags={['Tradicional']}
                         price={9.90}
-                        imageUrl="../src/assets/Type=Americano.svg"
+                        imageUrl="/assets/Type=Americano.svg"
                     />
                     <CoffeeCard
                         name="Expresso Cremoso"
                         description="Café expresso tradicional com espuma cremosa"
                         tags={['Tradicional']}
                         price={9.90}
-                        imageUrl="../src/assets/Type=Expresso Cremoso.svg"
+                        imageUrl="/assets/Type=Expresso Cremoso.svg"
                     />
                     <CoffeeCard
                         name="Expresso Gelado"
                         description="Bebida preparada com café expresso e cubos de gelo"
                         tags={['Tradicional', 'Gelado']}
                         price={9.90}
-                        imageUrl="../src/assets/Type=Café Gelado.svg"
+                        imageUrl="/assets/Type=Café Gelado.svg"
                     />
                     <CoffeeCard
                         name="Café com Leite"
                         description="Meio a meio de expresso tradicional com leite vaporizado"
                         tags={['Tradicional', 'Com Leite']}
                         price={9.90}
-                        imageUrl="../src/assets/Type=Café com Leite.svg"
+                        imageUrl="/assets/Type=Café com Leite.svg"
                     />
                     <CoffeeCard
                         name="Latte"
                         description="Uma dose de café expresso com o dobro de leite e espuma cremosa"
                         tags={['Tradicional', 'Com Leite']}
                         price={9.90}
-                        imageUrl="../src/assets/Type=Latte.svg"
+                        imageUrl="/assets/Type=Latte.svg"
                     />
                     <CoffeeCard
                         name="Capuccino"
                         description="Bebida com canela feita de doses iguais de café, leite e espuma"
                         tags={['Tradicional', 'Com Leite']}
                         price={9.90}
-                        imageUrl="../src/assets/Type=Capuccino.svg"
+                        imageUrl="/assets/Type=Capuccino.svg"
                     />
                     <CoffeeCard
                         name="Macchiato"
                         description="Café expresso misturado com um pouco de leite quente e espuma"
                         tags={['Tradicional', 'Com Leite']}
                         price={9.90}
-                        imageUrl="../src/assets/Type=Macchiato.svg"
+                        imageUrl="/assets/Type=Macchiato.svg"
                     />
                     <CoffeeCard
                         name="Mocaccino"
                         description="Café expresso com calda de chocolate, pouco leite e espuma"
                         tags={['Tradicional', 'Com Leite']}
                         price={9.90}
-                        imageUrl="../src/assets/Type=Mochaccino.svg"
+                        imageUrl="/assets/Type=Mochaccino.svg"
                     />
                     <CoffeeCard
                         name="Chocolate Quente"
                         description="Bebida feita com chocolate dissolvido no leite quente e café"
                         tags={['Especial', 'Com Leite']}
                         price={9.90}
-                        imageUrl="../src/assets/Type=Chocolate Quente.svg"
+                        imageUrl="/assets/Type=Chocolate Quente.svg"
                     />
                     <CoffeeCard
                         name="Cubano"
                         description="Drink gelado de café expresso com rum, creme de leite e hortelã"
                         tags={['Especial', 'Alcoólico', 'Gelado']}
                         price={9.90}
-                        imageUrl="../src/assets/Type=Cubano.svg"
+                        imageUrl="/assets/Type=Cubano.svg"
                     />
                     <CoffeeCard
                         name="Havaiano"
                         description="Bebida adocicada preparada com café e leite de coco"
                         tags={['Especial']}
                         price={9.90}
-                        imageUrl="../src/assets/Type=Havaiano.svg"
+                        imageUrl="/assets/Type=Havaiano.svg"
                     />
                     <CoffeeCard
                         name="Árabe"
                         description="Bebida preparada com grãos de café árabe e especiarias"
                         tags={['Especial']}
                         price={9.90}
-                        imageUrl="../src/assets/Type=Árabe.svg"
+                        imageUrl="/assets/Type=Árabe.svg"
                     />
                     <CoffeeCard
                         name="Irlandês"
                         description="Bebida a base de café, uísque irlandês, açúcar e chantilly"
                         tags={['Especial', 'Alcoólico']}
                         price={9.90}
-                        imageUrl="../src/assets/Type=Irlandês.svg"
+                        imageUrl="/assets/Type=Irlandês.svg"
                     />
                 </div>
             </div>
