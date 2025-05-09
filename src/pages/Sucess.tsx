@@ -1,5 +1,5 @@
 import { CurrencyDollar, MapPin, Timer } from "@phosphor-icons/react";
-import Illustration from "../assets/illustration.svg";
+import Illustration from "../assets/Illustration.svg";
 
 export function Sucess() {
 
